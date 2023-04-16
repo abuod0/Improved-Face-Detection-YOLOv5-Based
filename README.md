@@ -11,7 +11,7 @@
 
 <h2>Installation</h2>
 <p>Clone this repository:</p>
-<pre><code>git clone https://github.com/&lt;username&gt;/&lt;repository&gt;.git</code></pre>
+<pre><code>git clone https://github.com/abuod0/Improved-Face-Detection-YOLOv5-Based.git</code></pre>
 
 <p>Install the required packages:</p>
 <pre><code>pip3 install -r requirements.txt</code></pre>
