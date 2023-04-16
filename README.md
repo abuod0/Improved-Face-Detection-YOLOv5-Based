@@ -5,8 +5,22 @@
 <ul>
 <li>Jetson Nano with JetPack 4.4 or later</li>
 <li>Python 3.6 or later</li>
-<li>PyTorch 1.7.0 or later</li>
+<li>PyTorch 1.10.0 or later</li>
 <li>OpenCV 4.1.1 or later</li>
+<li>OnnxRuntime 1.10.1</li>
+<li>TensorFlow 2.4.0</li>
+</ul>
+
+
+<h2>Tested-On</h2>
+<ul>
+<li>Jetson Nano with JetPack 4.6.2</li>
+<li>Python 3.6.9</li>
+<li>PyTorch 1.10.0 or later</li>
+<li>Torchvision 0.11.0 or later</li>
+<li>OpenCV 4.1.1 or later</li>
+<li>OnnxRuntime 1.10.1</li>
+<li>TensorFlow 2.4.0</li>
 </ul>
 
 <h2>Installation</h2>
@@ -18,8 +32,7 @@
 
 <h2>Usage</h2>
 <ol>
-<li>Download the pre-trained YOLOv5 model for face detection from <a href="https://link/to/download">here</a>.</li>
-<li>Copy the downloaded model to the models directory of this repository.</li>
+<li>Make sure the model is in the directory of this repository.</li>
 <li>Run the facetrackyolo.py script:<br><code>python3 facetrackyolo.py</code></li>
 <li>The script will start the webcam and display the output with bounding boxes around the detected faces.</li>
 </ol>
