@@ -38,4 +38,9 @@
 </ol>
 
 <h2>Credits</h2>
-<p>This repository is built using the YOLOv5 repository by Ultralytics: <a href="https://github.com/ultralytics/yolov5">https://github.com/ultralytics/yolov5</a>. The pre-trained model used in this repository has been optimized using TensorRT for faster inference on Jetson Nano.</p>
+<p>This repository is built using the YOLOv5 repository by Ultralytics:
+<ul>
+<li><a href="https://github.com/ultralytics/yolov5">https://github.com/ultralytics/yolov5</a></li>
+<li><a href="https://github.com/miladsoltany/Face-Detection.git">https://github.com/miladsoltany/Face-Detection.git</a>
+</ul>
+</p>
