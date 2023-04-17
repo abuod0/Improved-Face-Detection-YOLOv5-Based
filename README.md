@@ -33,7 +33,7 @@
 <h2>Usage</h2>
 <ol>
 <li>Make sure the model is in the directory of this repository.</li>
-<li>Run the facetrackyolo.py script:<br><code>python3 facetrackyolo.py</code></li>
+<li>Run the Yolo_face.py script:<br><code>python3 facetrackyolo.py</code></li>
 <li>The script will start the webcam and display the output with bounding boxes around the detected faces.</li>
 </ol>
 
