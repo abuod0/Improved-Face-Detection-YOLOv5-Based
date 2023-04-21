@@ -12,7 +12,7 @@ left_margin = 24
 
 
 model = torch.hub.load('ultralytics/yolov5', 'custom', 'face_detection_yolov5s.engine')
-device = torch.device('cpu')
+device = torch.device('cuda')
 model.to(device)
 cap = cv2.VideoCapture(0)
 counter, fps = 0, 0
